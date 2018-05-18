@@ -84,7 +84,7 @@ def all_supplies_in_holidays(holiday_hash)
 	    things = data.join(", ")
 
 	    puts season
-	    puts "#{holidays}: #{things}"
+	    puts "  #{holidays}: #{things}"
     end
   end
 end
