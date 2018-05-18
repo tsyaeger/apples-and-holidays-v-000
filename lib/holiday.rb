@@ -83,9 +83,6 @@ def all_supplies_in_holidays(holiday_hash)
 	    holidays = holiday_cap.join(" ")
 	    things = data.join(", ")
 
-	    puts season
-	    puts "#{holidays}: #{things}"
-	    puts "\n"
     end
   end
 end
