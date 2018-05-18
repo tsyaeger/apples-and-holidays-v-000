@@ -99,6 +99,13 @@ def all_holidays_with_bbq(holiday_hash)
   #   details.each do |attribute, data|
   #     puts true
 
+  holiday_hash.each do |season, details|
+    details.each do |attribute, data|
+      if data.include?("BBQ")
+      	puts attribute
+      end
+    end
+  end
 end
 
 
